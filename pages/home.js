@@ -657,7 +657,7 @@ export default function HomeScreen() {
         `}</style>
         <nav>
           <header className="header">
-            <div class="logo">
+            <div className="logo">
               <a href="#">
                 <img src="./logofull.png" width="150px" height="auto" />
               </a>
