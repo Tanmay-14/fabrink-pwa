@@ -1,5 +1,6 @@
+import { FcGoogle } from "react-icons/fc";
 import styles from "../styles/Home.module.css";
-import { useSession, signIn, signOut } from "next-auth/react";
+import { useSession, signIn } from "next-auth/react";
 import HomeScreen from "./home";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
   if (session) {
     return (
       <>
-      <HomeScreen />
+        <HomeScreen />
       </>
     );
   }
@@ -15,7 +16,7 @@ export default function Home() {
     <div className={styles.login}>
       <img src="/logofull.png" /> <br />
       <button className={styles.loginbtn} onClick={() => signIn()}>
-        Login With Google
+        <FcGoogle size={20} /> &nbsp; Login With Google
       </button>
     </div>
   );

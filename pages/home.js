@@ -1,5 +1,6 @@
-import { useSession, signIn, signOut } from "next-auth/react";
+import { useSession, signIn } from "next-auth/react";
 import Link from "next/link";
+import { FcGoogle } from "react-icons/fc";
 
 export default function HomeScreen() {
   const { data: session } = useSession();
