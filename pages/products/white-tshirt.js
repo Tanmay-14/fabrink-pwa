@@ -38,8 +38,8 @@ export default function products() {
           <h1 className={styles.h1}>T-Shirt</h1>
           <img src="/WhiteT-Shirt.png" width={300} />
           <br />
-          <div class={styles.controls}>
-            <label class={styles.radio}>
+          <div className={styles.controls}>
+            <label className={styles.radio}>
               <input
                 className={styles.input}
                 type="radio"
@@ -50,7 +50,7 @@ export default function products() {
               Small
             </label>
             &nbsp;&nbsp;
-            <label class={styles.radio}>
+            <label className={styles.radio}>
               <input
                 className={styles.input}
                 type="radio"
@@ -60,7 +60,7 @@ export default function products() {
               Medium
             </label>
             &nbsp;&nbsp;
-            <label class={styles.radio}>
+            <label className={styles.radio}>
               <input
                 className={styles.input}
                 type="radio"
