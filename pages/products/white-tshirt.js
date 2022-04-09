@@ -1,6 +1,10 @@
 import styles from "../../styles/Page.module.css";
 import GooglePayButton from "@google-pay/button-react";
-export default function products() {
+import { AiOutlineArrowLeft } from "react-icons/ai";
+import { useRouter } from "next/router";
+export default function whitetshirt() {
+  const router = useRouter();
+
   const paymentRequest = {
     apiVersion: 2,
     apiVersionMinor: 0,
@@ -26,13 +30,22 @@ export default function products() {
     transactionInfo: {
       totalPriceStatus: "FINAL",
       totalPriceLabel: "Total",
-      totalPrice: "100.00",
-      currencyCode: "USD",
-      countryCode: "US"
+      totalPrice: "900.00",
+      currencyCode: "INR",
+      countryCode: "IN"
     }
   };
   return (
     <>
+      {" "}
+      <div className={styles.btn}>
+        <button
+          className={styles.btn2}
+          onClick={() => router.replace("/products")}
+        >
+          <AiOutlineArrowLeft size={20} />
+        </button>
+      </div>
       <div>
         <div className={styles.img}>
           <h1 className={styles.h1}>T-Shirt</h1>

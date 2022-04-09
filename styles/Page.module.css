@@ -45,14 +45,14 @@
   font-size: 20px;
   color: #fd045c;
 }
-.type select{
-  background-color: #FFF0F0;
+.type select {
+  background-color: #fff0f0;
   border-radius: 12px;
   font-size: 20px;
   color: #fd045c;
   border-color: #fd045c;
   padding: 0px 6px;
-  font-weight: 700; 
+  font-weight: 700;
 }
 .remark {
   display: flex;
@@ -62,33 +62,52 @@
   text-align: center;
 }
 .remark textarea {
-  background-color: #FFF0F0;
+  background-color: #fff0f0;
   border-radius: 12px;
   font-size: 20px;
   color: #fd045c;
   border-color: #fd045c;
   padding: 0px 6px;
-  font-weight: 700; 
+  font-weight: 700;
   width: 50%;
 }
-.textareapos{
+.textareapos {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.price{
+.price {
   display: flex;
   flex-direction: column;
   font-size: 20px;
   color: #fd045c;
-  text-align: center;margin-top: 12px;
+  text-align: center;
+  margin-top: 12px;
   font-weight: 700;
 }
-.buy{
+.buy {
   display: flex;
   flex-direction: column;
   font-size: 20px;
   color: #fd045c;
-  text-align: center;margin-top: 12px;
+  text-align: center;
+  margin-top: 12px;
   font-weight: 700;
+}
+.btn {
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 600;
+  padding: 12px;
+  text-transform: uppercase;
+}
+.btn2 {
+  background: #ffa3a3;
+  border: 1px solid #ffa3a3;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fd045c;
 }

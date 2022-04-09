@@ -41,6 +41,23 @@
   font-size: 1rem;
   font-weight: 600;
 }
+.btn {
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 600;
+  padding: 12px;
+  text-transform: uppercase;
+}
+.btn2 {
+  background: #ffa3a3;
+  border: 1px solid #ffa3a3;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fd045c;
+}
 /* 
 heading
  */

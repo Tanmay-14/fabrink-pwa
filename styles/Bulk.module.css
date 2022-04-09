@@ -1,0 +1,92 @@
+.title {
+  background-color: #fd045c;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 600;
+  padding: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.titlefont {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.form {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  border: 2px solid #fd045c;
+  border-radius: 12px;
+  font-family: sans-serif;
+  padding: 12px;
+}
+.form label {
+  font-size: x-large;
+  color: black;
+}
+
+.form {
+  color: #fd045c;
+  font-size: larger;
+}
+
+.form textarea {
+  width: 50%;
+  height: 100px;
+  margin-top: 12px;
+  border: 2px solid #fd045c;
+  border-radius: 12px;
+  font-family: sans-serif;
+  padding: 12px;
+}
+.btn {
+  background-color: #fd045c;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 600;
+  padding: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  width: 50%;
+}
+.back {
+  background: #ffa3a3;
+  border: 1px solid #ffa3a3;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fd045c;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 600;
+  padding: 12px;
+  text-transform: uppercase;
+}
+.about{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  border: 2px solid #fd045c;
+  border-radius: 12px;
+  font-family: sans-serif;
+  padding: 12px;
+}
+.about .header {
+  font-size: x-large;
+  font-weight: 700;
+  color: #fd045c;
+}
+.about .content {
+  font-size: large;
+  font-weight: 400;
+  margin-top: 12px;
+}

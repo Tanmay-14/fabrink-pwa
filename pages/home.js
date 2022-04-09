@@ -38,6 +38,21 @@ export default function HomeScreen() {
           a {
             color: #34495e;
           }
+          .goproducts{
+            background-color: white;
+            border: 1px solid #fd045c;
+            padding: 10px;
+            font-size: 1.5rem;
+            border-radius: 8px;
+            color: #fd045c;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: 0.3s;
+          }
           a {
             text-decoration: none;
           }
@@ -666,18 +681,20 @@ export default function HomeScreen() {
 
             <ul className="main-nav">
               <li>
-                <a href="./products.html">Products</a>
+                <Link href="../products">
+                  <a>Products</a>
+                </Link>
               </li>
-              <div className="scroll" id="section1">
-                <a href="#section2">
-                  <li>Integrations</li>
-                </a>
-              </div>
+
               <li>
-                <a href="./bulkOrder.html">Bulk Orders</a>
+                <Link href="../bulkorder">
+                  <a>Bulk Orders</a>
+                </Link>
               </li>
               <li>
-                <a href="./customerSupport.html">Support</a>
+                <Link href="../about">
+                  <a>About</a>
+                </Link>
               </li>
             </ul>
             <div className="btn" style={{ color: "white" }}>
@@ -784,6 +801,10 @@ export default function HomeScreen() {
               to t-shirts, sweatshirts, hoodies, mugs, Phone cases, and hundreds
               of other products.
             </p>
+            <br />
+            <Link href="/products">
+              <button className="goproducts">Products</button>
+            </Link>
           </div>
         </journey>
       </>

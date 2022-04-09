@@ -88,8 +88,8 @@ export default function Home() {
             <h1>Welcome</h1>
             <h2>{session.user.name}</h2>
             <h3>{session.user.email}</h3>
-            <button className="btn">Bulk Order</button>
-            <button className="btn">About</button>
+            <button className="btn" onClick={() => router.replace("/bulkorder")}>Bulk Order</button>
+            <button className="btn"onClick={() => router.replace("/about")}>About</button>
             <button className="btn" onClick={() => signOut()}>
               Sign Out
             </button>
