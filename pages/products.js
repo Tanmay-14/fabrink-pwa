@@ -34,7 +34,7 @@ export default function Products() {
                     <img src="./WhiteT-Shirt.png" width={200} />
                   </div>
                   <div className={styles.infospace}>
-                    <h3>180 GSM T-Shirt</h3>
+                    <h3>180 GSM <br/>T-Shirt</h3>
                     <p>
                       Pure Cotton 180 GSM T-Shirts, Pre-shrunk and Soft Fabric.
                     </p>
@@ -46,7 +46,7 @@ export default function Products() {
                   <img src="./WhiteHoodie.png" width={200} />
                 </div>
                 <div className={styles.infospace}>
-                  <h3>180 GSM Hoodie</h3>
+                  <h3>180 GSM <br/>Hoodie</h3>
                   <p>
                     Pure Cotton 180 GSM T-Shirts, Pre-shrunk and Soft Fabric.
                   </p>
@@ -57,7 +57,7 @@ export default function Products() {
                   <img src="./WhiteSweatshirt.png" width={200} />
                 </div>
                 <div className={styles.infospace}>
-                  <h3>180 GSM Sweatshirt</h3>
+                  <h3>180 GSM <br/>Sweatshirt</h3>
                   <p>
                     Pure Cotton 180 GSM T-Shirts, Pre-shrunk and Soft Fabric.
                   </p>
