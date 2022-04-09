@@ -2,7 +2,7 @@ import styles from "../styles/Bulk.module.css";
 import { AiFillHome } from "react-icons/ai";
 import { useRouter } from "next/router";
 
-export default function whitetshirt() {
+export default function Bulkorder() {
   const router = useRouter();
 
   return (

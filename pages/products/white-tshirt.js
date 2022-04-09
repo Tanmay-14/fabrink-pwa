@@ -2,7 +2,7 @@ import styles from "../../styles/Page.module.css";
 import GooglePayButton from "@google-pay/button-react";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { useRouter } from "next/router";
-export default function whitetshirt() {
+export default function Whitetshirt() {
   const router = useRouter();
 
   const paymentRequest = {

@@ -3,7 +3,7 @@ import { AiFillHome } from "react-icons/ai";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-export default function products() {
+export default function Products() {
   const router = useRouter();
   return (
     <>
